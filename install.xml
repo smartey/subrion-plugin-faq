@@ -15,8 +15,7 @@
 
 	<actions>
 		<action name="faq_view" url="faq/" icon="list" order="1" pages="faq:add,faq:edit,faq_categs,faq_categs:add,faq_categs:edit">FAQ List</action>
-		<action name="faq_add" url="faq/add/" icon="plus" order="2" pages="faq,faq_categs,faq_categs:add,faq_categs:edit">Add FAQ</action>
-
+		<action name="faq_add" url="faq/add/" icon="plus" order="2" pages="faq,faq_categs,faq_categs:add,faq_categs:edit">add_faq</action>
 		<action name="faq_categs" url="faq/categories/" icon="list-2" order="1" pages="faq,faq_categs:add,faq_categs:edit">FAQ Categories</action>
 		<action name="faq_categ_add" url="faq/categories/add/" icon="folder-plus" order="3" pages="faq, faq_categs">Add FAQ Category</action>
 	</actions>
